@@ -3,7 +3,7 @@ import numpy
 
 from ..interface import Contract, ContractNotRespected, RValue
 from ..syntax import W
-from contracts.interface import eval_in_context
+from ..interface import eval_in_context
 
 class ArrayElementsTest(Contract):
     
